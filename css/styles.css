@@ -38,6 +38,7 @@ body {
     background-image: url(http://www.transparenttextures.com/patterns/natural-paper.png); */
     background-image: url(../images/cream-paper.png);
     background-color: #ffffff;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.75); 
 }
 
 #inner { 
@@ -150,14 +151,6 @@ p.enlarge {
 
 p.enlarge span { 
     color: #000 
-}
-
-p.interests { 
-    font-family: Lato; 
-    font-size: 110%; 
-    padding-right: 1em; 
-    line-height: 24px; 
-    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.75); 
 }
 
 .contact-info { 

@@ -174,11 +174,22 @@ p.enlarge span {
 
 /* //-- section styles -- */
 a#pdf {  
-    display: inline-block; 
+    display: inline-block;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+    border-radius: 2px;
+    border: 1px solid #292929;
+    -webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.3);
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.3);
+    overflow: auto;
+    overflow-y: hidden;
 	float: left; 
 	background: #666;
 	color: white; 
-	padding: 6px 12px; 
+	padding: 7px 13px; 
 	margin-bottom: 6px; 
 	text-decoration: none;  
     text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.75);

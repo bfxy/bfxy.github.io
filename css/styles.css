@@ -262,6 +262,10 @@ div.job.last {
     padding-left: 20px;
 }
 
+.portfolio {
+    float: right;
+}
+
 
 .icon {
     color: #555;
